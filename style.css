@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet');
+
+.wrapper{
+    width: 900px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: rgba(144, 150, 173, 0.459);
+}
+
+html{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4c9baf;
+    color: white;
+    font-size: large;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #4c9baf;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    color: rgba(182, 92, 8, 0.4);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    
+  }
+  
+li {
+    float: left;
+    width: 25%;
+    background-color: #333333;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+    color: rgb(104, 187, 111);
+}
+  
+.active {
+    background-color: #4c9baf;
+}
+
+body{
+    background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+    }
+
+p {
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+    font-size: 40px;
+    background-color: #4c9baf;
+    color: white;
+    height: 50px;
+    margin: 1% auto;
+    border-radius: 25px
+}
+h1 {
+    text-align: center;
+}
+
+.sadrzaj{
+    width: 700px;
+    margin-left: 100px;
+}
