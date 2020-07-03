@@ -39,6 +39,9 @@ function inputCheck()
     if (empty($_POST['name']) == 1 || empty($_POST['email']) == 1 || empty($_POST['phoneNum']) == 1) {
         exit("Error!!<br>All input fields must be set!");
     }
+    if (!file_exists('images/')) {
+        mkdir('images/');
+    }
 }
 inputCheck();
 nameValidation();
