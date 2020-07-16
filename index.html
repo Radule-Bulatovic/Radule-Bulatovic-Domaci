@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  
+  <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-xs navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <span class="navbar-text">Jump to:</span>
+        <ul class="navbar-nav" onclick="addActive()">
+          <li class="nav-item">
+            <a href="#carousel" class="nav-link">Section 1</a>
+            <li class="nav-item">
+              <a href="#cards" class="nav-link">Section 2</a>
+            </li>
+            <li class="nav-item">
+              <a href="#formButton" class="nav-link">Section 3</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section class="container" style="padding-top: 5rem;" id="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100"
+            src="https://images.unsplash.com/photo-1541436293327-8f104af135eb?ixlib=rb-1.2.1&w=1000&q=80"
+            alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Prva slika</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur</p>
+            </div>
+          </div>
+        <div class="carousel-item">
+          <img class="d-block w-100"
+          src="https://images.unsplash.com/photo-1541423408854-5df732b6f6d1?ixlib=rb-1.2.1&w=1000&q=80"
+          alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Druga slika</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100"
+          src="https://cdn.pixabay.com/photo/2018/10/30/16/06/water-lily-3784022__340.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Treca slika</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100"
+          src="https://www.hdwallpapershut.com/wp-content/uploads/2020/03/outrun-vaporwave-hd-wallpaper-thumb.jpg"
+          alt="Fourth slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cetvrta slika</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <section class="container mt-5" id="cards">
+    <div class="card-group">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.screenja.com/static/img/thumbs/goku-ultra-instinct-1-normal-636.png"
+        alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Goku</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+            <a href="#" class="btn btn-success">YES</a>
+            <a href="#" class="btn btn-danger">NO</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpLqBKGUqeEe8N-iLMYR7z_GEkv_D7Pzc6sg&usqp=CAU"
+          alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vegeta</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+              <a href="#" class="btn btn-success">YES</a>
+              <a href="#" class="btn btn-danger">NO</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/b9/28/f6/b928f669d4ddc374b9d9a5e594e3d6cb.jpg"
+            alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Broly</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+                <a href="#" class="btn btn-success">YES</a>
+                <a href="#" class="btn btn-danger">NO</a>
+              </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/4d/9b/a9/4d9ba9a5cb079194ef884d75105c12dc.png"
+        alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Frieza</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+            <a href="#" class="btn btn-success">YES</a>
+            <a href="#" class="btn btn-danger">NO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5 d-flex flex-column text-center" id="formButton">
+      <div>
+        <h1>Naslov teksta</h1>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores soluta excepturi sequi dolor odio,
+        laudantium laborum nisi voluptates voluptas veritatis at perferendis dignissimos placeat provident dolores
+        consectetur rerum assumenda? Quae!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolorum vitae doloremque suscipit quidem! Ad
+          velit aliquam rem molestias beatae repellat tenetur laborum error neque. Ullam quaerat repellendus beatae cum.
+        </p>
+        <div class="container">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large
+            modal</button>
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <form class="p-5">
+                  <div class="row">
+                <div class="col">
+                  <label for="name">First name:</label>
+                  <input type="text" class="form-control" placeholder="First name" id="name">
+                </div>
+                <div class="col">
+                  <label for="lastName">Last name:</label>
+                  <input type="text" class="form-control" placeholder="Last name" id="lastName">
+                </div>
+              </div>
+              <div class="form-group pt-2">
+                <label for="emailInput"> Email address:</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea class="form-control" id="description" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    
+
+  </body>
+  <script src="index.js"></script>
+
+</html>
